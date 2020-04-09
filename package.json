@@ -12,15 +12,16 @@
     "build-prod": "webpack -p --mode production"
   },
   "dependencies": {
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.6"
   },
   "devDependencies": {
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
     "vue-loader": "^15.9.1",
     "vue-template-compiler": "^2.6.11",
-    "babel-loader": "^8.1.0",
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.5"
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
   }
 }
