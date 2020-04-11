@@ -16,4 +16,4 @@ ehthumbs.db
 Thumbs.db
 
 # Webpack
-dist/
+dist/bundle.js
