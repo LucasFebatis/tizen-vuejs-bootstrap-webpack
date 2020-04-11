@@ -13,10 +13,21 @@ const config = {
       {
         test: /\.vue$/,
         loader: 'vue-loader'
+      },
+      {
+        test: /\.css$/,
+        use: [
+          'vue-style-loader',
+          'css-loader'
+        ]
       }
     ]
   },
   resolve: {
+    alias: {
+      // Alias for using source of BootstrapVue
+      'bootstrap-vue$': 'bootstrap-vue/src/index.js'
+    },
     extensions: [
       '.js',
       '.vue'
