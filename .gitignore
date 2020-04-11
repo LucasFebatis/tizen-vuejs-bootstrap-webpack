@@ -17,4 +17,10 @@ Thumbs.db
 
 # Webpack
 dist/bundle.js
-tizenTvVueWebpack/tizenTvVueWebpack.wgt
+
+# Tizen
+tizenProject/tizenProject.wgt
+tizenProject/dist/
+tizenProject/.manifest.tmp
+tizenProject/author-signature.xml
+tizenProject/signature1.xml
