@@ -1,6 +1,14 @@
-# vue-webpack
+# Tizen Tv + VueJs + Bootstrap Vue + Webpack
 
-Empty project.
+Poc that can be used as an example of a VueJs project running on Samsung TVs with Tizen OS
+
+## You'll like to know... or not
+
+The main point that allows to run the VueJs project (and any other Js project) is the fact that the WebPack is not configured to use chunks
+
+## Cool, but and now?
+
+You can use some messaging service, like FCM or AWS SNS or Sockets with lib socket.io to communicate the app over the internet
 
 ## Tizen Cli reference
 
